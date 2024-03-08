@@ -1,6 +1,6 @@
 {
   "name": "@g-lib/unique",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "unique is a function that remove any duplicates from an array.",
   "main": "./dist/lib/index.js",
   "module": "./dist/lib/index.mjs",
