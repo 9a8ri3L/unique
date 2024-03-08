@@ -1,0 +1,48 @@
+{
+  "name": "@g-lib/unique",
+  "version": "0.0.0",
+  "description": "unique is a function that remove any duplicates from an array.",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/lib/index.mjs",
+  "types": "./dist/lib/index.d.ts",
+  "files": [
+    "dist",
+    "__tests__"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "lint": "tsc",
+    "build": "tsup",
+    "release": "pnpm run build && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9a8ri3L/unique.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "utils",
+    "array",
+    "object",
+    "string",
+    "number",
+    "boolean"
+  ],
+  "author": "Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9a8ri3L/unique/issues"
+  },
+  "homepage": "https://github.com/9a8ri3L/unique#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.11.25",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1"
+  }
+}
