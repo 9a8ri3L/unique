@@ -7,7 +7,7 @@
 
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/9a8ri3L/unique/latest)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/9a8ri3L/unique)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/%40g-lib/unique)
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/%40g-lib%2Funique)
 
 # unique
 
@@ -40,13 +40,13 @@ console.log(
   unique([
     { a: { key: 'a' }, b: 'b' },
     { a: { key: 'a' }, b: 'b' },
-  ]),
+  ])
 ); // [{a: {key: "a"}, b: "b"}]
 console.log(
   unique([
     [1, 2, true, undefined],
     [1, 2, true, undefined],
-  ]),
+  ])
 ); // [[1,2,true, undefined ]]
 
 // ...
